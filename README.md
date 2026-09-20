@@ -8,7 +8,7 @@ FitFlow is a fitness-tracking app redesign centered on three new capabilities: A
 workout plans, a private social community, and camera-based nutrition tracking. This repository
 captures the technology decisions and system design that support that redesign.
 
-## Repository structure
+## Repository structurec
 
 ```
 fitflow-redesign/
