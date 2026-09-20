@@ -1,0 +1,16 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  docs-lint:
+    name: Lint documentation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check for broken markdown links (placeholder)
+        run: echo "CI placeholder — add markdown-link-check or app-specific build/test steps once frontend/backend/ai-service are scaffolded."
